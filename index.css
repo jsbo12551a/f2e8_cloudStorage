@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+header{
+    position: relative;
+    padding: 10px 30px;
+    border-bottom: 1px solid #ccc;
+}
+header h1{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+header input{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 5px 30px;
+    width: 40%;
+}
+header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    position: absolute;
+    right: 30px;
+}
+
+.item{
+    float: left;
+}
+.side{
+    height: 100%;
+    width: 30%;
+    padding: 30px;
+    border-right: 1px solid #ccc;
+}
+.side a{
+    display: block;
+    text-decoration: none;
+    color: #666;
+    padding: 10px;
+}
+.side a:hover{
+    color: #444;
+}
+.side .add{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(45, 48, 212);
+    color: #fff;
+}
+.main{
+    width: 60%;
+    padding: 20px;
+}
+.main h3{
+    color: #666;
+    padding: 20px 0;
+}
+.main table{
+    width: 100%;
+    border-collapse:collapse;
+}
+
+.main table th{
+    color: #666;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.main table td{
+    color: #555;
+    padding: 10px;
+}
+.main table td a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.705);
+}
